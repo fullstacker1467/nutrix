@@ -1,0 +1,243 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: var(--montserat);
+}
+
+:root {
+    --poppins: 'Poppins', sans-serif;
+    --montserat: 'Montserrat', sans-serif;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+nav {
+    height: 80px;
+    border-bottom: 2px solid #848484;
+    background: #202020;
+    transition: all linear .4s;
+
+    .container {
+        .logo {
+            font-size: 35px;
+        }
+
+        .menu {
+            a {
+                border-bottom: 2px transparent dashed;
+                transition: all linear .2s;
+
+                &:hover {
+                    color: rgb(202, 255, 192);
+                }
+            }
+        }
+
+        i {
+            position: absolute;
+            font-size: 23px;
+            display: none;
+            color: #34C759;
+            top: 30px;
+            right: 20px;
+            cursor: pointer;
+        }
+    }
+}
+
+header {
+    background: url("/public/img/background.png");
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 50px 0;
+
+    .container {
+        text-align: center;
+
+        h1 {
+            font-size: 75px;
+            color: white;
+        }
+
+        p {
+            color: #b2b1b1;
+            width: 700px;
+            margin: 20px auto;
+            padding: 20px 10px;
+            background: rgba(0, 0, 0, 0.187);
+            border-radius: 10px;
+            backdrop-filter: blur(5px);
+        }
+
+        a {
+            font-size: 17px;
+            display: inline-block;
+            transition: ease all .2s;
+
+            &:hover {
+                background: #72d88c;
+            }
+
+            &:active {
+                transform: scale(.8);
+            }
+        }
+
+        .box {
+            .icons {
+                width: 270px;
+                padding: 25px 12px;
+                transition: all ease-in-out .2s;
+                border-radius: 10px;
+
+                &:hover {
+                    background: #4b4b4b69;
+                    cursor: default;
+                }
+
+                i {
+                    font-size: 19px;
+                }
+
+                h4 {
+                    margin: 10px 0;
+                }
+            }
+        }
+    }
+}
+
+.basic {
+    .container {
+        position: relative;
+        padding: 70px 20px;
+        text-align: center;
+
+        a {
+            display: inline-block;
+        }
+    }
+}
+
+.work {
+    .container {
+        .cards {
+            .card {
+                transition: all ease-in-out .2s;
+
+                &:hover {
+                    h3 {
+                        color: #202020;
+                    }
+
+                    p {
+                        color: #202020;
+                    }
+
+                    div {
+                        background: #202020;
+                    }
+                }
+
+                p {
+                    font-size: 15px;
+                }
+            }
+        }
+    }
+}
+
+.topsale {
+    .container {
+        .cards {
+            .card {
+                width: 400px;
+                height: 500px;
+                background: #2d2d2d;
+                overflow: hidden;
+                border-radius: 10px;
+
+                &:hover {
+                    .top {
+                        img {
+                            transform: scale(1.05);
+                        }
+                    }
+                }
+
+                .top {
+                    width: 100%;
+                    height: 50%;
+                    overflow: hidden;
+
+                    img {
+                        width: 100%;
+                        height: 100%;
+                        transition: all ease-in-out .4s;
+                    }
+                }
+
+                .bottom {
+                    width: 100%;
+                    height: 50%;
+
+                    .box {
+                        height: 30px;
+                        margin-top: 25px;
+                        align-items: center;
+                        padding: 30px 0;
+                        border-top: 1px #848484 solid;
+
+                        img {
+                            height: 17px;
+                            width: 100px;
+                        }
+
+                        a {
+                            border: 2px #34C759 solid;
+                            border-radius: 4px;
+                            transition: all ease-in .2s;
+                            background: #34C759;
+
+                            &:hover {
+                                color: #34C759;
+                                background: transparent;
+                            }
+
+                            &:active {
+                                transform: scale(.7);
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.chef{
+    .container{
+        .chefs{
+            
+            .shef{
+                .top{
+                    img{
+                        width: 45px;
+                        margin-right: 15px;
+                        margin-bottom: 15px;
+                    }
+                }
+            }
+        }
+    }
+}

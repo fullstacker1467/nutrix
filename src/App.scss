@@ -1,0 +1,161 @@
+:root {
+    --poppins: 'Poppins', sans-serif;
+    --montserat: 'Montserrat', sans-serif;
+}
+
+
+@media screen and (max-width:1200px) {
+    .container{
+        width: 100%;
+        padding: 0 20px;
+    }
+
+    .topsale{
+        .container{
+            .cards{
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:1000px) {
+    .work{
+        .container{
+            .cards{
+                flex-wrap: wrap;
+            }
+
+            .card{
+                width: 300px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:768px) {
+
+    nav.active {
+        padding: 10px 0;
+        height: 360px !important;
+        .container{
+            display: block;
+            .logo{
+                margin-bottom: 40px;
+                padding: 10px 0;
+                font-family: var(--poppins);
+                font-size: 30px;
+            }
+            .menu{
+                display: flex !important;flex-direction: column;
+            }
+
+            i{
+                top: 34px;
+                right: 20px;
+            }
+        }
+    }
+
+    nav{
+        .container{
+            .logo{
+                font-size: 23px;
+            }
+            .menu{
+                display: none;
+            }
+            i{
+                display: block;
+            }
+        }
+    }
+
+    header{
+        .container{
+
+            h1{
+                font-size: 50px;
+            }
+                p{
+                    width: 100%;
+                }
+
+                
+
+                .box{
+                    flex-direction: column;
+                    align-items: center;
+
+                    .icons{
+                        margin-top: 50px;
+                        border: 2px solid #848484;
+                    }
+                }
+        }
+    }
+
+    .work{
+        .container{
+            .cards{
+                flex-wrap: wrap;
+            }
+
+            .card{
+                width: 500px;
+            }
+        }
+    }
+
+    .chef{
+        .container{
+            .chefs{
+                flex-wrap: wrap;
+            }
+        }
+    }
+
+}
+
+@media screen and (max-width:450px) {
+    header{
+        background-position: center;
+        .container{
+            h1{
+                font-size: 38px;
+            }
+            p{
+                font-size: 13px;
+                line-height: 22px;
+            }
+
+            .box{
+                .icons{
+                    i{
+                        color: #34C759;
+
+                    }
+                }
+            }
+        }
+    }
+
+    .topsale{
+        .container{
+            .cards{
+                .card{
+                    width: 300px;
+                    height: 450px;
+                    .top{   
+                        height: 40%;
+                    }
+
+                    .bottom{
+                        height: 60%;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,177 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: var(--montserat);
+}
+
+:root {
+  --poppins: "Poppins", sans-serif;
+  --montserat: "Montserrat", sans-serif;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+nav {
+  height: 80px;
+  border-bottom: 2px solid #848484;
+  background: #202020;
+  transition: all linear 0.4s;
+}
+nav .container .logo {
+  font-size: 35px;
+}
+nav .container .menu a {
+  border-bottom: 2px transparent dashed;
+  transition: all linear 0.2s;
+}
+nav .container .menu a:hover {
+  color: rgb(202, 255, 192);
+}
+nav .container i {
+  position: absolute;
+  font-size: 23px;
+  display: none;
+  color: #34C759;
+  top: 30px;
+  right: 20px;
+  cursor: pointer;
+}
+
+header {
+  background: url("/public/img/background.png");
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 50px 0;
+}
+header .container {
+  text-align: center;
+}
+header .container h1 {
+  font-size: 75px;
+  color: white;
+}
+header .container p {
+  color: #b2b1b1;
+  width: 700px;
+  margin: 20px auto;
+  padding: 20px 10px;
+  background: rgba(0, 0, 0, 0.187);
+  border-radius: 10px;
+  -webkit-backdrop-filter: blur(5px);
+          backdrop-filter: blur(5px);
+}
+header .container a {
+  font-size: 17px;
+  display: inline-block;
+  transition: ease all 0.2s;
+}
+header .container a:hover {
+  background: #72d88c;
+}
+header .container a:active {
+  transform: scale(0.8);
+}
+header .container .box .icons {
+  width: 270px;
+  padding: 25px 12px;
+  transition: all ease-in-out 0.2s;
+  border-radius: 10px;
+}
+header .container .box .icons:hover {
+  background: rgba(75, 75, 75, 0.4117647059);
+  cursor: default;
+}
+header .container .box .icons i {
+  font-size: 19px;
+}
+header .container .box .icons h4 {
+  margin: 10px 0;
+}
+
+.basic .container {
+  position: relative;
+  padding: 70px 20px;
+  text-align: center;
+}
+.basic .container a {
+  display: inline-block;
+}
+
+.work .container .cards .card {
+  transition: all ease-in-out 0.2s;
+}
+.work .container .cards .card:hover h3 {
+  color: #202020;
+}
+.work .container .cards .card:hover p {
+  color: #202020;
+}
+.work .container .cards .card:hover div {
+  background: #202020;
+}
+.work .container .cards .card p {
+  font-size: 15px;
+}
+
+.topsale .container .cards .card {
+  width: 400px;
+  height: 500px;
+  background: #2d2d2d;
+  overflow: hidden;
+  border-radius: 10px;
+}
+.topsale .container .cards .card:hover .top img {
+  transform: scale(1.05);
+}
+.topsale .container .cards .card .top {
+  width: 100%;
+  height: 50%;
+  overflow: hidden;
+}
+.topsale .container .cards .card .top img {
+  width: 100%;
+  height: 100%;
+  transition: all ease-in-out 0.4s;
+}
+.topsale .container .cards .card .bottom {
+  width: 100%;
+  height: 50%;
+}
+.topsale .container .cards .card .bottom .box {
+  height: 30px;
+  margin-top: 25px;
+  align-items: center;
+  padding: 30px 0;
+  border-top: 1px #848484 solid;
+}
+.topsale .container .cards .card .bottom .box img {
+  height: 17px;
+  width: 100px;
+}
+.topsale .container .cards .card .bottom .box a {
+  border: 2px #34C759 solid;
+  border-radius: 4px;
+  transition: all ease-in 0.2s;
+  background: #34C759;
+}
+.topsale .container .cards .card .bottom .box a:hover {
+  color: #34C759;
+  background: transparent;
+}
+.topsale .container .cards .card .bottom .box a:active {
+  transform: scale(0.7);
+}
+
+.chef .container .chefs .shef .top img {
+  width: 45px;
+  margin-right: 15px;
+  margin-bottom: 15px;
+}/*# sourceMappingURL=Index.css.map */

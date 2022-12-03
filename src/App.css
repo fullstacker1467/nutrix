@@ -1,0 +1,103 @@
+:root {
+  --poppins: "Poppins", sans-serif;
+  --montserat: "Montserrat", sans-serif;
+}
+
+@media screen and (max-width: 1200px) {
+  .container {
+    width: 100%;
+    padding: 0 20px;
+  }
+  .topsale .container .cards {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .work .container .cards {
+    flex-wrap: wrap;
+  }
+  .work .container .card {
+    width: 300px;
+  }
+}
+@media screen and (max-width: 768px) {
+  nav.active {
+    padding: 10px 0;
+    height: 360px !important;
+  }
+  nav.active .container {
+    display: block;
+  }
+  nav.active .container .logo {
+    margin-bottom: 40px;
+    padding: 10px 0;
+    font-family: var(--poppins);
+    font-size: 30px;
+  }
+  nav.active .container .menu {
+    display: flex !important;
+    flex-direction: column;
+  }
+  nav.active .container i {
+    top: 34px;
+    right: 20px;
+  }
+  nav .container .logo {
+    font-size: 23px;
+  }
+  nav .container .menu {
+    display: none;
+  }
+  nav .container i {
+    display: block;
+  }
+  header .container h1 {
+    font-size: 50px;
+  }
+  header .container p {
+    width: 100%;
+  }
+  header .container .box {
+    flex-direction: column;
+    align-items: center;
+  }
+  header .container .box .icons {
+    margin-top: 50px;
+    border: 2px solid #848484;
+  }
+  .work .container .cards {
+    flex-wrap: wrap;
+  }
+  .work .container .card {
+    width: 500px;
+  }
+  .chef .container .chefs {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 450px) {
+  header {
+    background-position: center;
+  }
+  header .container h1 {
+    font-size: 38px;
+  }
+  header .container p {
+    font-size: 13px;
+    line-height: 22px;
+  }
+  header .container .box .icons i {
+    color: #34C759;
+  }
+  .topsale .container .cards .card {
+    width: 300px;
+    height: 450px;
+  }
+  .topsale .container .cards .card .top {
+    height: 40%;
+  }
+  .topsale .container .cards .card .bottom {
+    height: 60%;
+  }
+}/*# sourceMappingURL=App.css.map */
