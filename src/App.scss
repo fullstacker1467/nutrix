@@ -3,7 +3,6 @@
     --montserat: 'Montserrat', sans-serif;
 }
 
-
 @media screen and (max-width:1200px) {
     .container{
         width: 100%;
@@ -148,12 +147,30 @@
                     width: 300px;
                     height: 450px;
                     .top{   
-                        height: 40%;
+                        height: 47%;
                     }
 
                     .bottom{
-                        height: 60%;
+                        height: 53%;
                     }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:350px) {
+    .topsale{
+        .container{
+            .cards{
+                .card{
+                    .top{
+                        height: 45%;
+                    }
+                    .bottom{
+                        height: 55%;
+                    }
+                    height: 470px;
                 }
             }
         }

@@ -95,9 +95,20 @@
     height: 450px;
   }
   .topsale .container .cards .card .top {
-    height: 40%;
+    height: 47%;
   }
   .topsale .container .cards .card .bottom {
-    height: 60%;
+    height: 53%;
+  }
+}
+@media screen and (max-width: 350px) {
+  .topsale .container .cards .card {
+    height: 470px;
+  }
+  .topsale .container .cards .card .top {
+    height: 45%;
+  }
+  .topsale .container .cards .card .bottom {
+    height: 55%;
   }
 }/*# sourceMappingURL=App.css.map */
