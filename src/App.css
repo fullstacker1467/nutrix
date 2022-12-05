@@ -75,6 +75,22 @@
   .chef .container .chefs {
     flex-wrap: wrap;
   }
+  .recipe .container .flexy {
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+  }
+  .recipe .container .flexy .left {
+    width: 100%;
+    background-size: cover;
+  }
+  .recipe .container .flexy .right {
+    width: 100%;
+  }
+  .recipe .container .flexy .right .card .flexbek {
+    flex-direction: column;
+    gap: 30px;
+  }
 }
 @media screen and (max-width: 450px) {
   header {

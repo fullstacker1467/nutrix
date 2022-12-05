@@ -115,6 +115,29 @@
         }
     }
 
+    .recipe{
+        .container{
+            .flexy{
+                flex-direction: column;
+                align-items: center;
+                gap: 40px;
+                .left{
+                    width: 100%;
+                    background-size: cover;
+                }
+                .right{
+                    width: 100%;    
+                    .card{
+                        .flexbek{
+                            flex-direction: column;
+                            gap: 30px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
 }
 
 @media screen and (max-width:450px) {

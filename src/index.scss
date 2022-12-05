@@ -241,3 +241,35 @@ header {
         }
     }
 }
+
+.recipe{
+    .container{
+        .flex{
+            gap: 10px;
+            .left{
+                padding-top:40px;
+                border-radius: 6px;
+                width: 50%;
+                background: linear-gradient(rgba(0, 0, 0, 0.285),rgba(0, 0, 0, 0.299)),url("/public/img/kebab.png");
+                background-repeat: no-repeat;
+                .br{
+                    display: inline-block;
+                    padding: 5px;
+                    border-radius: 5px;
+                    font-size: 10px;
+                    background: #202020;
+                }
+            }
+            .right{
+                .card{
+                    border-radius: 6px;
+                }
+
+                .rasim{
+                    background: url('/public/img/salat.png');
+                    background-size:cover;
+                }
+            }
+        }
+    }
+}
