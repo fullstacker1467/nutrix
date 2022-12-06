@@ -225,13 +225,13 @@ header {
     }
 }
 
-.chef{
-    .container{
-        .chefs{
-            
-            .shef{
-                .top{
-                    img{
+.chef {
+    .container {
+        .chefs {
+
+            .shef {
+                .top {
+                    img {
                         width: 45px;
                         margin-right: 15px;
                         margin-bottom: 15px;
@@ -242,17 +242,19 @@ header {
     }
 }
 
-.recipe{
-    .container{
-        .flex{
+.recipe {
+    .container {
+        .flex {
             gap: 10px;
-            .left{
-                padding-top:40px;
+
+            .left {
+                padding-top: 40px;
                 border-radius: 6px;
                 width: 50%;
-                background: linear-gradient(rgba(0, 0, 0, 0.285),rgba(0, 0, 0, 0.299)),url("/public/img/kebab.png");
+                background: linear-gradient(rgba(0, 0, 0, 0.285), rgba(0, 0, 0, 0.299)), url("/public/img/kebab.png");
                 background-repeat: no-repeat;
-                .br{
+
+                .br {
                     display: inline-block;
                     padding: 5px;
                     border-radius: 5px;
@@ -260,16 +262,53 @@ header {
                     background: #202020;
                 }
             }
-            .right{
-                .card{
+
+            .right {
+                .card {
                     border-radius: 6px;
                 }
 
-                .rasim{
+                .rasim {
                     background: url('/public/img/salat.png');
-                    background-size:cover;
+                    background-size: cover;
                 }
             }
+        }
+    }
+}
+
+menu {
+    .container {
+        padding: 105px 0;
+
+        h1 {
+            font-size: 25px;
+            padding-bottom: 2px;
+        }
+
+        .menimg {
+            width: 100%;
+            height: 180px;
+        }
+
+        .flex {
+            div {
+                position: relative;
+
+                a {
+                    text-decoration: none;
+                    color: white;
+                    background: #202020;
+                    text-align: center;
+                    padding: 5px 0;
+                    transition: all linear .3s;
+                    display: block;
+                    &:hover {
+                        background: #2d2d2d;
+                    }
+                }
+            }
+
         }
     }
 }
