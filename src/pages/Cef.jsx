@@ -5,7 +5,7 @@ function Cef() {
   return (
     <menu className='bg-stone-900 w-full'>
             <div className="container bg-stone-700">
-                <h1 className='text-center text-white mb-2'>Menu</h1>
+                <h1 className='text-center text-white mb-2'>Chefs</h1>
                 <div className="mx-auto h-1 w-20 bg-green-500 mb-14"></div>
                 <div className='flex flex-wrap justify-center gap-4'>
                     <div className='w-[300px] sm:w-[48%] md:w-[30%] lg:w-[22%] xl:w-[23%] h-[250px] xl:h-[170px]'>
