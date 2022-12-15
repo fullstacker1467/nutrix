@@ -91,6 +91,9 @@
     flex-direction: column;
     gap: 30px;
   }
+  menu .container {
+    border-radius: 70px 10px;
+  }
 }
 @media screen and (max-width: 450px) {
   header {

@@ -201,19 +201,21 @@ header .container .box .icons h4 {
   background-size: cover;
 }
 
+menu {
+  padding-top: 80px;
+}
 menu .container {
-  padding: 105px 0;
+  padding: 120px 0;
+  border-radius: 20px;
 }
 menu .container h1 {
   font-size: 25px;
   padding-bottom: 2px;
 }
-menu .container .menimg {
+menu .container .flex div .menimg {
   width: 100%;
   height: 180px;
-}
-menu .container .flex div {
-  position: relative;
+  border-radius: 10px 10px 0 0;
 }
 menu .container .flex div a {
   text-decoration: none;
@@ -223,6 +225,7 @@ menu .container .flex div a {
   padding: 5px 0;
   transition: all linear 0.3s;
   display: block;
+  border-radius: 0 0 10px 10px;
 }
 menu .container .flex div a:hover {
   background: #2d2d2d;

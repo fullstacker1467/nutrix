@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 function Menular() {
     return (
         <menu className='bg-stone-900 w-full'>
-            <div className="container">
+            <div className="container bg-stone-700">
                 <h1 className='text-center text-white mb-2'>Menu</h1>
                 <div className="mx-auto h-1 w-20 bg-green-500 mb-14"></div>
                 <div className='flex flex-wrap justify-center gap-4'>
@@ -22,8 +22,8 @@ function Menular() {
                         <Link to="/fastfood">FastFoods</Link>
                     </div>
                     <div className='w-[300px] sm:w-[48%] md:w-[30%] lg:w-[22%] xl:w-[23%] h-[250px] xl:h-[170px]'>
-                        <img className='menimg' src="https://fusedbyfionauyema.com/wp-content/uploads/2021/02/Fused-by-Fiona-Uyema-Sushi-Q-A-how-to-make-sushi-at-home.jpg" />
-                        <Link to="/sushi">Sushi</Link>
+                        <img className='menimg' src="https://res.cloudinary.com/gagan/image/upload/v1594040000/bijyl26bjkw7z4lyaazf.jpg" />
+                        <Link to="/drink">Coffee</Link>
                     </div>
                 </div>
             </div>

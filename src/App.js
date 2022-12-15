@@ -8,7 +8,7 @@ import Cef from './pages/Cef';
 import National from './pages/National';
 import Foreign from './pages/Foreign';
 import Fastfood from './pages/Fastfood';
-import Sushi from './pages/Sushi';
+import Drink from './pages/Drink';
 
 function App() {
   return (
@@ -20,7 +20,7 @@ function App() {
           <Route path='/national' element={<National />} />
           <Route path='/foreign' element={<Foreign />} />
           <Route path='/fastfood' element={<Fastfood />} />
-          <Route path='/sushi' element={<Sushi />} />
+          <Route path='/drink' element={<Drink />} />
           <Route path='/cef' element={<Cef />} />
         </Routes>
         <Footer />
